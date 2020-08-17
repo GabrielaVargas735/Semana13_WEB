@@ -1,16 +1,25 @@
 #header{
     background-color: #87509c;
-    width: 1440px;
+    width: 1200px;
     height: 596px;
+    padding:0;
+    
 }
 body{
     padding: 0;
+    margin:0;
     font-family: Arial, Helvetica, sans-serif;
+    width:1200px;
 }
-#logo img{
-    width: 128px;
-    height: 45px;
-    
+#logo{
+    width: 100px;
+    padding-top:25px;
+    padding-left:-30px;
+}
+#imagen{
+    width:100px;
+    padding-top:25px;
+    padding-left:250px;
 }
 .clearfix::after{
     content: "";
@@ -19,50 +28,69 @@ body{
 }
 .wrapper{
     margin: 0 auto;
-    width: 1440px;
+    width: 1200px;
     height: 1447px;
 }
-#list ul{
-    float: left;
+#list{
     list-style: none;
-    width:1440px;
+    text-decoration: none;
+    float: right;
+    margin-right: 40px;
+    padding: 0;
+}
+#list li{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    margin-left:40px;
+    margin-top:-17px;
 }
 #list li + li{
-    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: -15px;
+    width: 150px;
 }
 #list li a{
+    font-size: 15px;
+    font-weight:bolder;
     color:#FFFFFF;
     text-decoration: none;
+    list-style: none;
     text-transform: uppercase;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 #title{
     text-align: center;
-    color:#FFFFFF; 
-    padding:0;
-    margin-top: 0;
+    color:#ebbcbc; 
+    padding:0px;
+    margin:0;
+    width: 1200px;
+    height: 147px;
+    margin-top:120px;
 }
-#bottom{
-    width: 250px;
-    height: 72px;
-    background-color: #eb7d4b;
-    font-size: 25px;
-    border-radius: 5px 5px 5px 5px;
+#boton{
+    margin: 20px 500px ;
+    padding: 15px;
     text-align: center;
     color:#FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
-    float: relative;
+    background-color: #eb7d4b;
+} 
+#boton:hover{
+    background-color: #b9b9b9;
+    border: 1px  #b9b9b9;
 }
 #mainContent{
     background-color:#17c2a4;
     padding:0;
     margin: 0;
-    width: 1440px;
-    height: 750px;
+    width: 1200px;
+    height: 950px;
 }
 #footer{
     background-color: #344b8e;
-    width: 1440px;
+    width: 1200px;
     height: 20px;
     text-align: center;
     padding-top: 40px;
@@ -72,20 +100,27 @@ body{
     text-align: center;
     float: center;
     color: #FFFFFF;
-    padding:50px;
+    padding:0;
     margin:0;
     font-weight: bold;
+    padding-top: 40px;
 }
 #reason{
     text-align: center;
     color:#FFFFFF;
+    padding:0;
+    margin:0;
+    font-size:30px;
+    margin-top: 80px;
 }
 .txt{
     color:#FFFFFF;
     float:left;
     width: 300px;
-    margin:150px;
+    margin:60px;
+    padding-right: 40px;
     text-align: center;
+    margin-top: 100px
 }
 .txt + .txt{
     margin-left: -180px;
@@ -95,10 +130,11 @@ h1{
     text-align: center;
 }
 h2{
-    padding: 0px;
+    padding: 0;
     margin: 0;
     text-align: center;
     color:#FFFFFF;
+    font-size: 20pt;
 }
 h6{
     text-align: center;
@@ -107,9 +143,9 @@ h6{
 #list-footer{
     padding: 0px;
     margin: 0px;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
-    display: inline;
+    /* display: inline; */
 }
 #list-footer li{
     color:#FFFFFF;
@@ -129,3 +165,4 @@ h6{
 #list-footer li a #blue{
     color:#30bae7;
 }
+
